@@ -54,17 +54,17 @@ One challenge that I encountered during the creation of this app was getting the
     See the License for the specific language governing permissions and
     limitations under the License.
     
-    # Lab 2 - *Name of App Here*
+# Lab 2 - *tumblr*
     
-    **Name of your app** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+**tumblr** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
     
-    Time spent: **X** hours spent in total
+Time spent: **1** hour spent in total
     
-    ## User Stories
+ User Stories
     
-    The following **required** user stories are complete:
+The following **required** user stories are complete:
     
-    - [ ] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tab an image to view a larger image in a detail view (5pts)
     
     The following **stretch** user stories are implemented:
     
@@ -78,24 +78,24 @@ One challenge that I encountered during the creation of this app was getting the
     
     Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
     
-    1.
-    2.
+    1. How can we implement a feed that gets data not in String format
+    2. 
     
-    ## Video Walkthrough
+Video Walkthrough
     
-    Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories:
     
-    <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Hl9rlNL.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
     
-    GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
     
-    ## Notes
+Notes
     
-    Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app.
     
-    ## License
+License
     
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [RAGEEB MAHTAB]
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

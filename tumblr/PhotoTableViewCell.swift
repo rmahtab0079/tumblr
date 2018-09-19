@@ -10,12 +10,10 @@ import UIKit
 
 class PhotoTableViewCell: UITableViewCell {
 
-    
 
     @IBOutlet weak var photoImageView: UIImageView!
     
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PhotoTableViewCell") as! PhotoTableViewCell
         
         // Configure YourCustomCell using the outlets that you've defined.

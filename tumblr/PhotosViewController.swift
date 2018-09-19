@@ -10,8 +10,7 @@ import UIKit
 import AlamofireImage
 
 class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     var posts: [[String: Any]] = []
@@ -90,6 +89,20 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let detailViewController = segue.destination as! PhotoDetailsViewController
+            let post = posts[indexPath.row]
+            detailViewController.post = post
+        }
     }
 
     override func didReceiveMemoryWarning() {
